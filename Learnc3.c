@@ -77,9 +77,9 @@ int main(){
     printf("%.2f\n\n", price3);
 
 
-    // We can control width and Precision simultaneously
+    // We can control width, Precision and Flag simultaneously
 
-    printf("%+4.2f\n", price1);
+    printf("%+4.2f\n", price1);//flags are just + or - to start from left or right allign
     printf("%+4.2f\n", price2);
     printf("%+4.2f\n\n", price3);
 
