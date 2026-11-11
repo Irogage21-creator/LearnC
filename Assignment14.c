@@ -5,9 +5,10 @@
 
 bool palindrome(int num){
 
-        int remainder = 0;
-        int reverse = 0;
-        int original = num;
+    int remainder = 0;
+    int reverse = 0;
+    int original = num;
+             
 
 /*     User Input
            |
