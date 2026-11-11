@@ -29,10 +29,11 @@ int numreverse(int num){
 int main(){
 
     int num = 0;
-    printf("Enter your digit no. : ");
+    printf("Enter your Positive no. : ");
     scanf("%d", &num);
 
     if(num > 0){numreverse(num);}
+    else{printf("INVALID INPUT");}
 
     return 0;
 }
