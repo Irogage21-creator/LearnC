@@ -27,6 +27,7 @@ int main(){
     else if(terms == 2){printf("Fibonacci series upto 2 terms : 0 , 1");}
     else if(terms >= 3){printf("Fibonacci series upto %d terms : 0 , 1",terms );
                        fibonacci(terms);}
+    else{printf("INVALID INPUT!!!!");}
 
     return 0;
 }
