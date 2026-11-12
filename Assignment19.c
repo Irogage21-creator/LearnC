@@ -27,8 +27,8 @@ int main(){
     int n;
     int m;
 
-    printf("Enter your num1 : ");scanf("%d", &n);
-    printf("Enter your num2 : ");scanf("%d", &m);
+    printf("Enter your Num1 : ");scanf("%d", &n);
+    printf("Enter your Num2 : ");scanf("%d", &m);
 
     int result = hcf(n, m);
 
